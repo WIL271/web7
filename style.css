@@ -1,0 +1,85 @@
+    a {
+        color: #2f5687;
+        color: rgb(220, 220, 220);
+        transition: text-decoration 0, 5s ease-in;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #navigation  {
+        font-size: 35px;
+    }
+
+    .osnov, nav {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 50px;
+        height: 150px;
+    }
+
+    #header-container p {
+        font-family: Courier, monospace;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 14px;
+    }
+
+
+    #navigation .col-md-4 {
+        font-size: 35px;
+    }
+
+    #topnav ul li {
+        font-size: 40px;
+    }
+
+    #topnav nav ul {
+        list-style: none;
+    }
+
+    body {
+        font-family: Courier, monospace;
+        font-size: 14px;
+        color: rgb(#FFF);
+        background-color: #9DE0D7;
+        font-weight: bold;
+    }
+
+
+    header, #navigation, footer {
+        background-color: #2f5687;
+        border-width: thick;
+        border-style: double;
+        border-color: white;
+        border-image: initial;
+    }
+
+    #menu {
+        background-color: #2f5687;
+        border-width: thick;
+        border-style: double;
+        border-color: white;
+        border-image: initial;
+    }
+
+    .slider {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .slide > img {
+        max-width: 95%;
+    }
+    @media only screen and (max-width: 480px) {
+        .slide > img {
+            max-width: 95%;
+        }
+
+        .slide {
+            margin: 10px;
+        }
+    }
